@@ -8,7 +8,7 @@
     for ($limite = 1; $limite <= 10; $limite++) { 
         
         echo "$n ";
-        $n = $n + $r;
+        $n += $r;
     }
 
     echo "\n";

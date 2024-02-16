@@ -7,7 +7,7 @@
     for ($limite = 0; $limite < 10; $limite++) { 
         
         echo "$numero ";
-        $numero = $numero + 2;
+        $numero += 2;
     }
 
     echo "\n";
