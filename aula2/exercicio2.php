@@ -6,7 +6,7 @@
     do
     {
         $total += $valor;
-        $valor = readline("Valor: R$");
+        $valor = (int) readline("Valor: R$");
 
     } while ($valor != 0);
 
