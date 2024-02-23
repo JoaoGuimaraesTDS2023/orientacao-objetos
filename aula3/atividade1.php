@@ -18,7 +18,7 @@
     ########################################################################
 
     $numero = 10;
-    echo "Para sair digite um número > 2. \n";
+    echo "Para sair digite um número < 2. \n";
 
     while ($numero > 2){
 
