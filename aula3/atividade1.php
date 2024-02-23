@@ -1,17 +1,5 @@
 <?php
 
-    $numero = 10;
-    echo "Para sair digite um número > 2. \n";
-
-    while ($numero > 2){
-
-        $numero = (int) readline("Digite um número: ");
-
-        echo (verificaPrimo($numero)) ? "$numero é primo" : "";
-
-        echo "\n";
-
-    } ;
 
     function verificaPrimo($num): bool
     {
@@ -27,4 +15,18 @@
         return $primo; 
     }
 
+    ########################################################################
+
+    $numero = 10;
+    echo "Para sair digite um número > 2. \n";
+
+    while ($numero > 2){
+
+        $numero = (int) readline("Digite um número: ");
+
+        echo (verificaPrimo($numero)) ? "$numero é primo" : "";
+
+        echo "\n";
+
+    };
 ?>
