@@ -3,20 +3,20 @@
     function verificaPrimo($num): bool
     {
         $divisores = 0;
-        $primo = false;
 
         if ($num != 0)
         {
-
             for ($i=2; $i<$num ; $i++)
             { 
-                $divisores = ($num % $i != 0) ? $divisores : $divisores+1;
+                if ($num % $i == 0) 
+                {
+                    return false;
+                }
             }
-
-            $primo = ($divisores > 0) ? false : true;
+            return true;
         }
 
-        return $primo; 
+        return false;
     }   
 
 ########################################################################
